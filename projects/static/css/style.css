@@ -1,0 +1,722 @@
+/* .carousel-indicators
+{
+    display: none;
+} */
+
+body
+{
+    font-family: 'Raleway', sans-serif;
+    font-weight: bolder;
+
+}
+
+
+
+.carousel-caption
+{
+    top: 40%;
+}
+
+
+/* 
+.w-100
+{
+    height: 50vw;
+}
+ */
+
+
+
+
+
+
+
+.w3-black, .w3-hover-black:hover {
+    color:grey!important;
+    background-color: transparent !important;
+}
+
+/* .carousel-control-next-icon, .carousel-control-prev-icon
+{
+    display: inline-block;
+}
+ */
+
+
+/* .carousel-control-next, .carousel-control-prev
+{
+    display: none;
+} */
+
+
+/* .band
+{
+    height: 35vw;
+    
+    
+
+} */
+
+
+.container1
+{
+    
+    width: 20%;
+    font-size: 2vw;
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+}
+
+
+
+.container2
+{
+    width: 20%;
+    font-size: 1vw;
+    color: grey;
+    margin: auto;
+    margin-top: 15px;
+    text-align: center; 
+
+}
+
+
+.container-2
+{
+
+
+    height: 60vw;
+    background-color: black;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+
+
+
+
+}
+
+.container-21, .container-22, .container-23
+{
+
+
+    width: 32%;
+    height: 80%;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+
+
+}
+
+.heading
+{
+    font-size: 2vw;
+}
+
+.para
+{
+    font-size: 1vw;
+}
+
+._btn
+{
+    font-size: 1vw;
+}
+
+
+.container-3-p1
+{
+    font-size: 4vw;
+}
+
+.container-3-p2
+{
+    font-size: 2vw;
+}
+
+
+
+.container-3-p3
+{
+
+    font-size: 1vw;
+}
+
+
+
+
+@media only screen and (max-width:900px)
+{
+
+.container-3.container-fluid {
+        height: 35vw;
+}
+
+p#inView
+{
+    margin: 30px auto;
+}
+
+.container-3-p1
+{
+    font-size: 5vw;
+}
+
+.container-3-p2
+{
+    font-size: 3vw;
+}
+
+
+
+
+
+.container-3-p3
+{
+
+    font-size: 1.5vw;
+}
+
+}
+
+
+
+
+
+
+
+
+
+@media (max-width:600px)
+{
+
+    .container-2
+    {
+        height: 350vw;
+        flex-direction: column;
+    }
+    .videos
+    {
+        height: 20px;
+        width: 10px;
+    }
+
+   
+
+    .container-3.container-fluid
+    {
+        height: 40vw;
+    }
+
+    .heading
+    {
+        font-size: 3.5vw;
+    }
+
+    .para
+    {
+        font-size: 2.5vw;
+    }
+
+    p#inView {
+        margin: 20px auto;
+    }
+
+    ._btn
+    {
+        font-size: 2.5vw;
+    }
+
+
+    .circle{
+        width: 60%;
+    }
+
+  
+    .container-21, .container-22, .container-23
+    {
+        width: 80%;
+        margin-top: 20px;
+        height: 32%;
+    }
+
+
+    .container-3-p3
+{
+
+    font-size: 2vw;
+}
+
+
+
+
+button#inView-3 {
+    margin-top: 60px;
+}
+
+
+
+div.container-4 {
+    height: 120vw;
+
+}
+
+
+div.videos {
+    height: 60%;
+    width: 30%;
+}
+
+p.heading__pararaph {
+    font-size: 5vw;
+}
+
+b.songs__bold {
+    font-size: 3vw;
+}
+
+p.songs__paragraph {
+    font-size: 2vw;
+}
+
+
+.btn:not(:disabled):not(.disabled) {
+    cursor: pointer;
+    font-size: 3vw;
+}
+
+
+
+div#inView-1 {
+
+
+    width: 100%;
+}
+
+div.about-us {
+    height: 40vw;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+div.about-us-2 {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+div.about-us-1
+{
+    display: none;
+}
+
+b.about-us-bold {
+    font-size: 5vw !important;
+}
+
+p.about-us-para1 {
+    font-size: 2vw !important;
+    
+}
+
+p.about-us-para2 {
+    font-size: 2vw !important;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+  
+
+
+
+
+.center
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+@media (max-width: 480px)
+{
+    .container-3.container-fluid {
+        height: 70vw;
+}
+
+
+div.about-us
+{
+    height: 60vw;
+
+}
+
+b.about-us-bold
+{
+    font-size:6vw !important;
+}
+
+p.about-us-para1
+{
+    font-size: 2.5vw !important;
+}
+
+p.about-us-para2
+{
+    font-size: 2.5vw !important;
+}
+
+
+.container-3-p1
+{
+    font-size: 6vw;
+}
+
+.container-3-p2
+{
+    font-size: 4vw;
+}
+
+p.heading__pararaph {
+    font-size: 6vw;
+}
+
+
+.btn:not(:disabled):not(.disabled) {
+    cursor: pointer;
+    font-size: 3vw;
+}
+
+
+
+div.container-4
+{
+    height: 120vw;
+}
+
+
+div.videos {
+    height: 50%;
+    
+}
+
+
+b.songs__bold {
+    font-size: 4vw;
+}
+
+p.songs__paragraph {
+    font-size: 2.5vw;
+}
+
+button#inView-3 {
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
+.container-3-p3
+{
+
+    font-size: 3vw;
+}
+    
+}
+
+.center > img
+{
+    height: 50%;
+    width: 50%;
+}
+
+.description
+{
+ 
+    width: 80%;
+    height: 15%;
+}
+
+
+.circle
+{
+    width: 100%;
+    height: 60%;
+    border: 2px solid black;
+    background-color: white;
+}
+
+
+
+
+
+
+.mixing, .mastering, .recording
+{
+
+    height: 7%;
+    
+    width: 80%;    
+    text-align: center;
+    font-size: 2vw;
+
+}
+
+
+.container-3
+{
+    height: 30vw;
+    
+}
+
+
+.animate
+{  
+    width: 80%;
+    margin:40px auto;
+    text-align: center;
+   
+}
+
+
+.container-4
+{
+    height: 40vw;
+  
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+  
+    text-align: center;
+}
+
+._btn2
+{
+    font-size:2vw;
+}
+
+
+
+.temp
+{
+    border: none;
+}
+
+
+
+
+
+.heading
+{
+    width: 30%;
+
+    height: 12%;
+}
+
+
+.songs
+{
+    width: 90%;
+   
+    height: 60%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    
+}
+
+
+.container-4-img
+{
+    border-radius: 50%;
+    height: 100%;
+    width: 100%;
+}
+
+
+
+
+.view-button
+{
+    width: 10%;
+   
+    height: 15%;
+}
+
+
+.margin__button > button{
+
+    margin-top: -30px;
+}
+
+
+.videos
+{
+    height: 100%;
+    width: 16%;
+
+}
+
+
+
+.about-us
+{
+    height: 30vw;
+    
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+   
+}
+
+
+.about-us-1
+{
+    width: 30%;
+    height: 100%;
+  
+}
+
+
+
+.about-us-2
+{
+    width: 70%;
+    height: 100%;
+
+}
+
+@media (max-width: 768px)
+{
+.md\:justify-start {
+    justify-content: center;
+    margin-bottom: 45px;
+}
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+.about-us-img
+{
+    width: 70%;
+    height: 70%;
+   
+    margin: 17px auto;
+}
+
+
+@media (min-width: 640px)
+
+{
+.sm\:ml-auto {
+    margin-left: auto;
+   
+    margin: auto;
+}
+
+}
+
+
+.body-font
+{
+   
+    background-color: black;
+    color: white;
+}
+
+.heading__pararaph
+{
+    font-size: 4vw;
+}
+
+.songs__bold
+{
+    font-size: 2vw;
+}
+
+
+.songs__paragraph
+{
+    font-size: 1vw;
+}
+
+
+b.about-us-bold
+{
+
+    font-size:4vw;
+
+}
+
+
+p.about-us-para1
+{
+
+    font-size:1.5vw;
+
+    margin-top: 30px;
+
+}
+
+
+
+p.about-us-para2
+{
+
+    font-size:1.5vw;
+
+    margin-top: 30px;
+
+}
+
+
+
+
+
+

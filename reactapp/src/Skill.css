@@ -1,0 +1,102 @@
+.skill-1
+{
+    width: 20%;
+    height: 100%;
+    text-align: center;
+    background-color: lightblue;
+    color: white;
+   
+    
+}
+
+
+.progress
+{
+    height: 100%;
+    font-size: 25px;
+}
+
+.skill-2
+{
+    
+    
+    width: 80%;
+    
+}
+
+
+
+.skill
+{
+width: 60%;
+margin: auto;
+display:flex;
+flex-direction: row;
+margin-top: 5px;
+
+
+}
+
+
+@media (max-width: 768px)
+{
+
+div.skill
+{
+
+    width: 65%;
+
+}
+
+
+}
+
+
+@media (max-width: 600px)
+{
+
+div.skill
+{
+
+    width: 70%;
+
+}
+
+
+}
+
+
+@media (max-width: 480px)
+{
+
+div.skill
+{
+
+    width: 85%;
+
+}
+
+.progress
+{
+    font-size: 0px;
+}
+
+
+}
+
+
+
+@media (max-width: 320px)
+{
+
+div.skill
+{
+
+    width: 95%;
+
+}
+
+
+
+
+}
