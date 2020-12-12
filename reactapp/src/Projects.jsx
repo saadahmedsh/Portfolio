@@ -68,7 +68,7 @@ return (
 
       <div class="p-4 md:w-1/3">
         <div class="h-full border-2 border-gray-200 rounded-lg overflow-hidden">
-         <a href='http://127.0.0.1:8000/projects/crowd'>
+         <a href='https://saadahmedsh.herokuapp.com/projects/crowd'>
           <img class="lg:h-48 md:h-36 w-full object-cover object-center" src={crowd} alt="blog" />
           </a>
           <div class="p-6">
@@ -95,7 +95,7 @@ return (
 
       <div class="p-4 md:w-1/3">
         <div class="h-full border-2 border-gray-200 rounded-lg overflow-hidden">
-        <a href='http://127.0.0.1:8000/projects/band'>
+        <a href='https://saadahmedsh.herokuapp.com/projects/band'>
           <img class="lg:h-48 md:h-36 w-full object-cover object-center" src={band} alt="blog" />
           </a>
           <div class="p-6">
@@ -117,7 +117,7 @@ return (
       </div>
       <div class="p-4 md:w-1/3">
         <div class="h-full border-2 border-gray-200 rounded-lg overflow-hidden">
-        <a href='http://127.0.0.1:8000/projects/blackjack'>
+        <a href='https://saadahmedsh.herokuapp.com/projects/blackjack'>
           <img class="lg:h-48 md:h-36 w-full object-cover object-center" src={blackjack} alt="blog" />
           </a>
           <div class="p-6">

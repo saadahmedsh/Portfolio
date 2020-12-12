@@ -41,7 +41,7 @@ const Contact= () =>
 
 
 
-  xhr.open('POST', 'http://127.0.0.1:8000/projects/contact/', true);
+  xhr.open('POST', 'https://saadahmedsh.herokuapp.com/projects/contact/', true);
   xhr.getResponseHeader('Content-type', 'application/json');
 
 

@@ -24,12 +24,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'qr&t_v5k(x-o#ie@-+bay*))61=hh(9i)uu4s^0x76ao1e36d0'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
-
-ALLOWED_HOSTS = []
-
-
-# Application definition
+DEBUG = False
+STATIC_ROOT= os.path.join(BASE_DIR,'staticfiles')
+ALLOWED_HOSTS = [".herokuapp.com"]
 
 INSTALLED_APPS = [
     'corsheaders',
@@ -45,6 +42,7 @@ INSTALLED_APPS = [
 
 MIDDLEWARE = [
         'corsheaders.middleware.CorsMiddleware',
+        'whitenoise.middleware.WhiteNoiseMiddleware',
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
@@ -56,9 +54,13 @@ MIDDLEWARE = [
 
 CORS_ORIGIN_ALLOW_ALL=True
 
+
+STATIC_ROOT= os.path.join(BASE_DIR, 'staticfiles')
+
 CORS_ORIGIN_WHITELIST = (
 'http://127.0.0.1:8000',
 'http://localhost:8000'
+
 )
 
 ROOT_URLCONF = 'djangoapp.urls'
