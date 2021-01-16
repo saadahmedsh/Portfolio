@@ -31,6 +31,9 @@ const Contact= () =>
     data=JSON.stringify(data);
 
 
+  
+
+
     
 
     
@@ -41,8 +44,9 @@ const Contact= () =>
 
 
 
-  xhr.open('POST', 'https://saadahmedsh.herokuapp.com/projects/contact/', true);
+  xhr.open('POST', 'http://localhost:8000/projects/contact/', true);
   xhr.getResponseHeader('Content-type', 'application/json');
+ 
 
 
   
@@ -53,7 +57,8 @@ const Contact= () =>
   xhr.onload = function () {
       if(this.status === 200){
 
-          alert(this.responseText);
+        alert(this.responseText);
+  
       }
       else{
           console.log("Some error occured");

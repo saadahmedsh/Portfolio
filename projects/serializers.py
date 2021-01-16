@@ -3,13 +3,11 @@ from projects.models import message
 
 
 
-class messageSerializer(serializers.Serializer):
-    name=serializers.CharField(max_length=100)
-    email=serializers.EmailField(max_length=200)
-    message=serializers.CharField(max_length=500)
+class messageSerializer(serializers.ModelSerializer):
+    class Meta:
+        model=message
+        fields=['name','email', 'message']
+  
     
     
-    def create(self, validated_data):
-      
-        return message.objects.create(**validated_data)
-
+    

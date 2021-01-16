@@ -40,7 +40,7 @@ return (
 
   <ScrollAnimation animateIn="slideInLeft" duration='2s' animateOnce={true}> 
 
-      <p class="mb-8 leading-relaxed">Hey! I am Saad, a Computer Science Professional and Web Developer. I have valuable experience in creating customized web pages with cutting-edge technologies like HTML5,CSS,JS(ECMA6),Bootstrap and Django. I am very passionate to provide my clients with best possible services and do my job with utmost dedication.</p>
+      <p class="mb-8 leading-relaxed">Hey! I am Saad, a Computer Science Professional and Web Developer. I have valuable experience in creating customized web pages with cutting-edge technologies like HTML5,CSS,JS(ECMA6),Bootstrap, Django-Rest framework, and Django. I am very passionate to provide my clients with best possible services and do my job with utmost dedication.</p>
 
   </ScrollAnimation>  
       

@@ -2,10 +2,17 @@ from django.shortcuts import render
 from django.http import HttpResponse
 from django.views.decorators.csrf import csrf_exempt
 from projects.serializers import messageSerializer
-from rest_framework.renderers import JSONRenderer
-from rest_framework.parsers import JSONParser
-import io
 from django.http import JsonResponse
+from rest_framework import generics
+from .models import message
+from django.views import View
+import io
+from rest_framework.parsers import JSONParser
+
+
+
+
+
 
 
 
@@ -30,8 +37,9 @@ def BlackJack(request):
 
 
 
+ 
 @csrf_exempt
-def contact(request):
+def message(request):
     if request.method == 'POST':
         stream = io.BytesIO(request.body)
         data = JSONParser().parse(stream)
@@ -39,6 +47,25 @@ def contact(request):
         serializer.is_valid()
         serializer.save()
         return HttpResponse('Message sent!')
+
+
+        
+  
+
+
+
+
+
+   
+
+    
+
+
+   
+   
+
+   
+
 
 
        
