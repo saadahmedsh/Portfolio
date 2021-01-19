@@ -12,31 +12,6 @@ from rest_framework.parsers import JSONParser
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-def Band(request):
-    return render(request, 'Band.html')
-
-
-def Crowd(request):
-    return render(request,'Crowd.html')
-
-
-def BlackJack(request):
-    return render(request,'Blackjack.html')
-
-
-
  
 @csrf_exempt
 def message(request):

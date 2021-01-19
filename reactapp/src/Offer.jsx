@@ -17,7 +17,7 @@ const Offer = () =>
 return (
     <>
 
-    <div className="services">
+    <div className="services" id="services">
 
     <ScrollAnimation animateIn="slideInRight" duration='2s' animateOnce={true}>  
         <h1><b className='about-text-b'>What I Offer?</b></h1>

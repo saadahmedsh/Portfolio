@@ -32,7 +32,7 @@ const Navbar = ()=>
           </a>
       </li>
       <li class="nav-item ">
-        <a class="nav-link" href="#">
+        <a class="nav-link" href="#services">
         <i class="fa fa-info-circle" aria-hidden="true">
             
           </i>
@@ -40,7 +40,7 @@ const Navbar = ()=>
         </a>
       </li>
       <li class="nav-item ">
-        <a class="nav-link" href="#">
+        <a class="nav-link" href="#projects">
         <i class="fa fa-tasks" aria-hidden="true">
             
           </i>
@@ -48,7 +48,7 @@ const Navbar = ()=>
         </a>
       </li>
       <li class="nav-item ">
-        <a class="nav-link" href="#">
+        <a class="nav-link" href="#contact">
         <i class="fa fa-address-book-o" aria-hidden="true">
             
           </i>

@@ -91,7 +91,7 @@ const Contact= () =>
         <>
 
 
-        <div className="contact">
+        <div className="contact"  id='contact'>
 
     <ScrollAnimation animateIn="slideInRight" duration='2s' animateOnce={true}>  
         <h1><b className='about-text-b'>Contact</b></h1>
